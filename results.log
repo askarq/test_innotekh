@@ -1,0 +1,185 @@
+$ k6 run load_script.js
+
+          /\      |‾‾| /‾‾/   /‾‾/
+     /\  /  \     |  |/  /   /  /
+    /  \/    \    |     (   /   ‾‾\
+   /          \   |  |\  \ |  (‾)  |
+  / __________ \  |__| \__\ \_____/ .io
+
+     execution: local
+        script: load_script.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 2 max VUs, 50s max duration (incl. graceful stop):
+              * default: Up to 2 looping VUs for 20s over 2 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+INFO[0015] 1                                             source=console
+INFO[0015] 2                                             source=console
+INFO[0015] 3                                             source=console
+INFO[0015] 4                                             source=console
+INFO[0015] 5                                             source=console
+INFO[0015] 6                                             source=console
+INFO[0015] 7                                             source=console
+INFO[0015] 8                                             source=console
+INFO[0015] 1                                             source=console
+INFO[0015] 2                                             source=console
+INFO[0015] 3                                             source=console
+INFO[0015] 4                                             source=console
+INFO[0015] 5                                             source=console
+INFO[0015] 6                                             source=console
+INFO[0015] 7                                             source=console
+INFO[0015] 8                                             source=console
+INFO[0016] 1                                             source=console
+INFO[0016] 2                                             source=console
+INFO[0016] 3                                             source=console
+INFO[0016] 4                                             source=console
+INFO[0016] 5                                             source=console
+INFO[0016] 6                                             source=console
+INFO[0016] 7                                             source=console
+INFO[0016] 8                                             source=console
+INFO[0016] 1                                             source=console
+INFO[0016] 2                                             source=console
+INFO[0016] 3                                             source=console
+INFO[0016] 4                                             source=console
+INFO[0016] 5                                             source=console
+INFO[0016] 6                                             source=console
+INFO[0016] 7                                             source=console
+INFO[0016] 8                                             source=console
+INFO[0016] 1                                             source=console
+INFO[0016] 2                                             source=console
+INFO[0016] 3                                             source=console
+INFO[0016] 4                                             source=console
+INFO[0016] 5                                             source=console
+INFO[0016] 6                                             source=console
+INFO[0016] 7                                             source=console
+INFO[0016] 8                                             source=console
+INFO[0017] 1                                             source=console
+INFO[0017] 2                                             source=console
+INFO[0017] 3                                             source=console
+INFO[0017] 4                                             source=console
+INFO[0017] 5                                             source=console
+INFO[0017] 6                                             source=console
+INFO[0017] 7                                             source=console
+INFO[0017] 8                                             source=console
+INFO[0019] 1                                             source=console
+INFO[0019] 2                                             source=console
+INFO[0019] 3                                             source=console
+INFO[0019] 4                                             source=console
+INFO[0019] 5                                             source=console
+INFO[0019] 6                                             source=console
+INFO[0019] 7                                             source=console
+INFO[0019] 8                                             source=console
+INFO[0022] 1                                             source=console
+INFO[0022] 2                                             source=console
+INFO[0022] 3                                             source=console
+INFO[0022] 4                                             source=console
+INFO[0022] 5                                             source=console
+INFO[0022] 6                                             source=console
+INFO[0022] 7                                             source=console
+INFO[0022] 8                                             source=console
+INFO[0023] 1                                             source=console
+INFO[0023] 2                                             source=console
+INFO[0023] 3                                             source=console
+INFO[0023] 4                                             source=console
+INFO[0023] 5                                             source=console
+INFO[0023] 6                                             source=console
+INFO[0023] 7                                             source=console
+INFO[0023] 8                                             source=console
+INFO[0023] 1                                             source=console
+INFO[0023] 2                                             source=console
+INFO[0023] 3                                             source=console
+INFO[0023] 4                                             source=console
+INFO[0023] 5                                             source=console
+INFO[0023] 6                                             source=console
+INFO[0023] 7                                             source=console
+INFO[0023] 8                                             source=console
+INFO[0024] 1                                             source=console
+INFO[0024] 2                                             source=console
+INFO[0024] 3                                             source=console
+INFO[0024] 4                                             source=console
+INFO[0024] 5                                             source=console
+INFO[0024] 6                                             source=console
+INFO[0024] 7                                             source=console
+INFO[0024] 8                                             source=console
+INFO[0032] 1                                             source=console
+INFO[0032] 2                                             source=console
+INFO[0032] 3                                             source=console
+INFO[0032] 4                                             source=console
+INFO[0032] 5                                             source=console
+INFO[0032] 6                                             source=console
+INFO[0032] 7                                             source=console
+INFO[0032] 8                                             source=console
+INFO[0032] 1                                             source=console
+INFO[0032] 2                                             source=console
+INFO[0032] 3                                             source=console
+INFO[0032] 4                                             source=console
+INFO[0032] 5                                             source=console
+INFO[0032] 6                                             source=console
+INFO[0032] 7                                             source=console
+INFO[0032] 8                                             source=console
+INFO[0033] 1                                             source=console
+INFO[0033] 2                                             source=console
+INFO[0033] 3                                             source=console
+INFO[0033] 4                                             source=console
+INFO[0033] 5                                             source=console
+INFO[0033] 6                                             source=console
+INFO[0033] 7                                             source=console
+INFO[0033] 8                                             source=console
+INFO[0033] 1                                             source=console
+INFO[0033] 2                                             source=console
+INFO[0033] 3                                             source=console
+INFO[0033] 4                                             source=console
+INFO[0033] 5                                             source=console
+INFO[0033] 6                                             source=console
+INFO[0033] 7                                             source=console
+INFO[0033] 8                                             source=console
+INFO[0033] 1                                             source=console
+INFO[0033] 2                                             source=console
+INFO[0033] 3                                             source=console
+INFO[0033] 4                                             source=console
+INFO[0033] 5                                             source=console
+INFO[0033] 6                                             source=console
+INFO[0033] 7                                             source=console
+INFO[0033] 8                                             source=console
+INFO[0034] 1                                             source=console
+INFO[0034] 2                                             source=console
+INFO[0034] 3                                             source=console
+INFO[0034] 4                                             source=console
+INFO[0034] 5                                             source=console
+INFO[0034] 6                                             source=console
+INFO[0034] 7                                             source=console
+INFO[0034] 8                                             source=console
+
+     ✓ get croc
+
+     █ setup
+
+       ✓ created user
+       ✓ logged in successfully
+
+     █ 01. Create a new crocodile
+
+       ✓ Croc created correctly
+
+     checks.........................: 100.00% ✓ 36       ✗ 0
+     data_received..................: 37 kB   1.1 kB/s
+     data_sent......................: 16 kB   474 B/s
+     group_duration.................: avg=586.02ms min=175.13ms med=190.96ms max=2.77s    p(90)=2.13s   p(95)=2.7s
+     http_req_blocked...............: avg=30.61ms  min=0s       med=0s       max=475.82ms p(90)=0s      p(95)=312.76ms
+     http_req_connecting............: avg=12.94ms  min=0s       med=0s       max=156.76ms p(90)=0s      p(95)=154.42ms
+     http_req_duration..............: avg=843.89ms min=163.59ms med=187.01ms max=9.27s    p(90)=2.68s   p(95)=3.15s
+       { expected_response:true }...: avg=843.89ms min=163.59ms med=187.01ms max=9.27s    p(90)=2.68s   p(95)=3.15s
+     http_req_failed................: 0.00%   ✓ 0        ✗ 36
+     http_req_receiving.............: avg=361.22µs min=0s       med=253.8µs  max=1ms      p(90)=908.8µs p(95)=984.17µs
+     http_req_sending...............: avg=14.25µs  min=0s       med=0s       max=513.29µs p(90)=0s      p(95)=0s
+     http_req_tls_handshaking.......: avg=13.29ms  min=0s       med=0s       max=164.3ms  p(90)=0s      p(95)=157.13ms
+     http_req_waiting...............: avg=843.51ms min=163.14ms med=186.19ms max=9.27s    p(90)=2.68s   p(95)=3.15s
+     http_reqs......................: 36      1.057267/s
+     iteration_duration.............: avg=1.75s    min=346.31ms med=401.41ms max=14.03s   p(90)=3.01s   p(95)=4.8s
+     iterations.....................: 17      0.499265/s
+     vus............................: 1       min=0      max=1
+     vus_max........................: 2       min=2      max=2
+
+
+running (34.1s), 0/2 VUs, 17 complete and 0 interrupted iterations
+default ✓ [======================================] 0/2 VUs  20s
