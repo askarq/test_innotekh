@@ -1,9 +1,10 @@
 import http from 'k6/http';
 import { check, group, fail } from 'k6';
-import { options1, options2 } from './config.js';
+import { options1,options2,BASE_URL } from './config.js';
 
-// const BASE_URL = 'https://test-api.k6.io'; //Задание №1. Смена хоста у endpoint`a для всех запросов. Можно задать как const, можно передать как Enviroment Variable
-// для запуска запустить команду HTTPS_PROXY=http://localhost:8888 k6 run  -e BASE_URL=https://test-api.k6.io load_script.js
+// const BASE_URL = 'https://test-api.k6.io'; //Задание №1. Смена хоста у endpoint`a для всех запросов. Можно задать как const в файле конфига, можно передать как Enviroment Variable.
+// для запуска запустить команду HTTPS_PROXY=http://localhost:8888 k6 run load_script.js
+// прокси указываем для отладки через Fiddler
 
 // Задание 5. options лежат в config.js
 export const options = options2
@@ -30,7 +31,7 @@ const PASSWORD = loginData.password
 
 export function setup() {
     // Задание 4. Передаем динамические данные в body POST запроса
-    const res = http.post(`${__ENV.BASE_URL}/user/register/`, {
+    const res = http.post(`${BASE_URL}/user/register/`, {
         first_name: 'Crocodile',
         last_name: 'Owner',
         username: USERNAME,
@@ -39,7 +40,7 @@ export function setup() {
 
     check(res, { 'created user': (r) => r.status === 201 });
 
-    const loginRes = http.post(`${__ENV.BASE_URL}/auth/token/login/`, {
+    const loginRes = http.post(`${BASE_URL}/auth/token/login/`, {
         username: USERNAME,
         password: PASSWORD,
     });
@@ -86,7 +87,7 @@ export default function (authToken) {
 
 
 
-    const res = http.get(`${__ENV.BASE_URL}/public/crocodiles/`, get_params);
+    const res = http.get(`${BASE_URL}/public/crocodiles/`, get_params);
 
     // проверка на код ответа (200) 
     check(res, { 'get croc': (r) => r.status === 200 });
@@ -103,7 +104,7 @@ export default function (authToken) {
 
 
 
-    let URL = `${__ENV.BASE_URL}/my/crocodiles/`;
+    let URL = `${BASE_URL}/my/crocodiles/`;
 
     group('01. Create a new crocodile', () => {
         const payload = {
